@@ -83,28 +83,37 @@ button {
 .nav-list {
   display: flex;
   gap: 40px;
-  position: relative;
 }
 
-.header-list-item {
-  position: relative;
-  width: 48px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 20px;
-}
-
-.header-list-item:hover::after,
-.header-list-item:focus::after {
+.current::after {
   position: absolute;
-  width: 100%;
+  width: 48px;
   height: 4px;
 
   content: "";
 
   border-radius: 2px;
-  background-color: #404bbf;
+  background: var(--OCEAN, #404bbf);
+}
+
+.nav-list-studio-text {
+  color: var(--OCEAN, #404bbf);
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  position: relative;
+}
+
+.header-list-item-studio {
+  display: flex;
+  width: 48px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
 }
 
 .header-content {
@@ -120,6 +129,7 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  position: relative;
 }
 
 .nav-list-item-text:hover,
