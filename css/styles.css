@@ -91,6 +91,8 @@ button {
   height: 4px;
 
   content: "";
+  left: 0;
+  bottom: -1px;
 
   border-radius: 2px;
   background: var(--OCEAN, #404bbf);
@@ -263,12 +265,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.4px;
   color: #2e2f42;
-  margin-bottom: 8px;
-}
-
-.features-list-text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  margin: 8px 0;
 }
 
 .features-list-text {
@@ -402,6 +399,13 @@ button {
   padding: 100px 0;
 }
 
+.footer-field-cont {
+  display: inline-block;
+  width: 294px;
+  height: 112px;
+  flex-shrink: 0;
+}
+
 .logo-studio-footer {
   color: #f4f4fd;
 }
@@ -419,5 +423,18 @@ button {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  width: 264px;
+}
+
+.social-media {
+  display: inline-block;
+}
+
+.social-media-text {
+  color: #fff;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
