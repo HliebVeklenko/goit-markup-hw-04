@@ -442,7 +442,7 @@ button {
   overflow: hidden;
 }
 
-.fourth-section-img-texy:hover {
+.fourth-section-list-item:hover p {
   transform: translateY(0%);
 }
 
