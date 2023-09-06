@@ -254,6 +254,9 @@ button {
 }
 
 .features-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 264px;
   height: 112px;
   flex-shrink: 0;
@@ -261,9 +264,7 @@ button {
   border-radius: 4px;
   border: 1px solid var(--LIGHT-SLATE, #8e8f99);
   background: var(--CLOUD, #f4f4fd);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
   margin-bottom: 8px;
 }
 
