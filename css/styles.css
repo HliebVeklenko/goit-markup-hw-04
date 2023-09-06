@@ -495,14 +495,20 @@ button {
   display: flex;
 }
 
-.footer-field-cont {
+.footer-field-content {
   width: 294px;
   height: 112px;
   flex-shrink: 0;
+  margin-right: 120px;
 }
 
 .logo-studio-footer {
   color: #f4f4fd;
+}
+
+.footer-field-container {
+  display: flex;
+  align-items: baseline;
 }
 
 .footer-logo {
@@ -525,10 +531,39 @@ button {
 
 .social-media-text {
   color: #fff;
-
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  margin-bottom: 16px;
+}
+
+.social-media-list {
+  display: flex;
+  gap: 16px;
+}
+
+.social-media-list-item {
+  width: 40px;
+  height: 40px;
+}
+
+.social-media-list-item-link {
+  width: 100%;
+  height: 100%;
+  background-color: ;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-media-list-item-link:hover,
+.social-media-list-item-link:focus {
+  background-color: #31d0aa;
+}
+
+.social-media-list-item-icon {
 }
