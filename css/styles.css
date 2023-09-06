@@ -316,6 +316,7 @@ button {
   flex-direction: column;
   justify-content: center;
   padding: 32px 0;
+  gap: 8px;
 }
 
 .social-links {
@@ -324,10 +325,23 @@ button {
   gap: 24px;
 }
 
-.social-links-item a {
+.social-links-item-link {
   width: 100%;
   height: 100%;
-  background-color: var(-–secondarycolor);
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-links-item-link:hover,
+.social-links-item-link:focus {
+  background-color: #404bbf;
+}
+
+.social-links-item-link-icon {
+  fill: #f4f4fd;
 }
 
 .social-links-item {
@@ -353,7 +367,6 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
-  margin-bottom: 8px;
 }
 
 .our-team-job {
